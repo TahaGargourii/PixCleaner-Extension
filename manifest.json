@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "PixCleaner",
+    "version": "1.0",
+    "permissions": [
+        "activeTab",
+        "downloads",
+        "storage"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "action": {
+        "default_popup": "popup.html"
+    }
+}
